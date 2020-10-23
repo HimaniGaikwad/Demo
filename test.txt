@@ -13,3 +13,5 @@ hello
 welcome to new project.
 
 >>>>>>> 529db6bfc27cccd2139e9ce8c6c39ced2db0dc8e
+
+Friday October
