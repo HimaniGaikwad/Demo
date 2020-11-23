@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    h2 align="center"><u>Instructors</u></h2>
+    <h2 align="center"><u>Instructors</u></h2>
 <body>
 <fieldset align="left">
 <legend><b><i>Archana Misra</i></b></legend>
