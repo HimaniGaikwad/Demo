@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05-Dec-2020, 9:40:00 PM
+    Author     : Himani
+*/
+
+.myrows{
+	border: 3px solid green;
+	padding: 0;
+}
+
+.mycols{
+	border: 3px solid red;
+}
+
+.mycontainer{
+	background-color: aqua;
+}
+
+#topHeader{
+	background-color: ghostwhite;
+	border-bottom: 1px solid silver;
+	padding: 0 ;
+}
+#topHeader a{
+	color : black;
+	font-weight: 600;
+	font-size: 0.89rem;
+}
+
+.container-fluid
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+nav ul li a{
+	color : black;
+	font-size: 1.1rem;
+	font-weight:600;
+}
+/* START : Footer */
+.full-footer{
+  background-color: #244f35;
+  
+}
+.top-footer p{
+  color: black;
+}
+.top-footer a{
+  color: black;
+  font-weight: 600;
+}
+.top-footer h3{
+  color: blue;
+}
+.bottom-footer{
+  background-color: #031b2e;
+}
+.bottom-footer p{
+  color: black;
+}
+ 
+/* END : Footer */
+
+/* Home Page : Hero Section */
+.top-hero-section{
+	
+	background-color: blue;
+	
+}
+
+.top-hero-section a{
+	color : blue;
+	font-weight:600;
+}
+/* End of hero section*/
