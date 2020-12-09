@@ -20,7 +20,7 @@
 	<script src="https://kit.fontawesome.com/cca8cad742.js" crossorigin="anonymous"></script>
 		
 	<!-- Custom CSS -->
-        <link rel = "stylesheet" href = "newcss.css">
+        <link rel = "stylesheet" href = "style2.css">
     <title>Exclusive Batch</title>
 </head>
 <body>

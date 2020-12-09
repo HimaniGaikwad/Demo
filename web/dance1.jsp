@@ -1,9 +1,3 @@
-<%-- 
-    Document   : fed
-    Created on : 08-Nov-2020, 6:14:46 PM
-    Author     : Shraddha
---%>
-
 <!doctype html>
 <html lang="en">
  <head>
@@ -20,7 +14,7 @@
 	<script src="https://kit.fontawesome.com/cca8cad742.js" crossorigin="anonymous"></script>
 		
 	<!-- Custom CSS -->
-        <link rel = "stylesheet" href = "newcss.css">
+        <link rel = "stylesheet" href = "style1.css">
     <title>Regular Batch</title>
 
 </head>
@@ -49,11 +43,11 @@
 				<div class="collapse navbar-collapse" id="navbarToggler">
 					<ul class="navbar-nav" >
 						<li class="nav-item">
-							<a class="nav-link" href="home.jsp">Home</a>
+							<a class="nav-link" href="#">Home</a>
 						</li>
 			  
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">Dance Classes</a>
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#">Dance Classes</a>
 							<div class="dropdown-menu">
 									<a class="dropdown-item" href="#">Admin Login</a>
 									<a class="dropdown-item" href="#">Student Login</a>     
@@ -61,7 +55,7 @@
 						</li>
 			  
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">Batches</a>
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#">Batches</a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="#">Regular Batches</a>
 								<a class="dropdown-item" href="#">Exclusive Batches</a>     
@@ -69,11 +63,11 @@
 						</li>
 			  
 						<li class="nav-item">
-							<a class="nav-link" href="instructor.jsp">About Us</a>
+							<a class="nav-link" href="#">About Us</a>
 						</li>
 					
 						<li class="nav-item">
-							<a class="nav-link" href="contact.jsp">Contact Us</a>
+							<a class="nav-link" href="#">Contact Us</a>
 						</li>
 					</ul>
 				</div>
@@ -177,57 +171,11 @@
 </div>
 <!--Schedule ends here-->
 
-<!-- Feedback starts here--> 
-<div class="feedback">
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">--- Feedback ---</h3>
-        </div>
+<div class="title">
+    <div class="container">
+
     </div>
-    <form>
-      <div class="form-row">
-        <div class="col-md-6">
-          <label for="validationDefault01" class="value">First name</label>
-          <input type="text" class="form-control" id="validationDefault01" required>
-        </div>
-        <div class="col-md-6">
-          <label for="validationDefault02" class="value">Last name</label>
-          <input type="text" class="form-control" id="validationDefault02" required>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="col-md-6">
-          <label for="validationDefault03" class="value">Training experience</label>
-          <select class="form-control" required>
-            <option selected disabled value="">Excellent</option>
-            <option>Good</option>
-            <option>Average</option>
-            <option>Bad</option>
-        </select>
-        </div>
-        <div class="col-md-6">
-          <label for="validationDefault04" class="value">Rate our academy</label>
-          <select class="form-control" required>
-            <option selected disabled value="">5</option>
-            <option>4</option>
-            <option>3</option>
-            <option>2</option>
-            <option>1</option>
-        </select>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="col-md-6">
-          <label for="validationDefault05" class="value">Any Suggestions</label>
-          <textarea class="form-control" rows="2"></textarea>
-      </div>
-      </div>
-      <button class="btn btn-primary" type="submit">Submit</button>
-    </form>
 </div>
-</div>
-<!--feedback ends here-->
 
 <footer class="full-footer">
     <div class="container-fluid top-footer p-md-3 p-1" style="background-color:#f9ca24;">

@@ -80,8 +80,6 @@ nav ul li a{
 }
 /* End of hero section*/
 
-
-/*---Regular batch---*/
 /* Start:schedule*/
 .services
 {
@@ -139,7 +137,8 @@ nav ul li a{
 }
 /* End:feedback*/
 
-/* ---Exclusive batch--- */
+/* ---EXCLUSIVE BATCH--- */
+
 /* Start:schedule*/
 .services
 {
@@ -163,18 +162,16 @@ nav ul li a{
     border-radius: 26px;
     font-family: 'Times New Roman', Times, serif;
 }
-/*End:Schedule*/
+/* End:schedule */
 
-/*Start:masterclass*/
 .masterclass{
   padding-top: 20px;
 }
 .alert{
   border: 2px solid;
 }
-/* End:masterclass*/
 
-/* Start :feedback */
+/*Start : feedback */
 .feedback{
   padding-top:10px;
   background-color : lightgoldenrodyellow;
