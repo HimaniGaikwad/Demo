@@ -10,7 +10,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>ContactPage</title>
+        <title>Contact Page</title>
 		<style>
 			#leftbox{float:left;
 				width:45%; 

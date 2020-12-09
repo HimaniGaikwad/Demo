@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<%-- 
+    Document   : dance2
+    Created on : 09-Dec-2020, 10:02:47 PM
+    Author     : DELL
+--%>
+
 <!doctype html>
 <html lang="en">
  <head>
@@ -21,8 +21,7 @@ and open the template in the editor.
 		
 	<!-- Custom CSS -->
         <link rel = "stylesheet" href = "newcss.css">
-    <title>Home - Dance Academy !</title>
-
+    <title>Exclusive Batch</title>
 </head>
 <body>
 
@@ -33,7 +32,7 @@ and open the template in the editor.
 			<div class ="container ">
 				<div class ="row">
 					<div class = "col-12 text-right">
-						<a class ="p-1" href="tel: +919090909090" ><i class="fas fa-phone"></i> +(91)9090909090</a>
+						<a	class ="p-1" href="tel: +919090909090" ><i class="fas fa-phone"></i> +(91)9090909090</a>
 						<a class ="p-1" href="mail to: danceacademy@gmail.com"><i class="fas fa-envelope"></i> danceacademy@gmail.com</a>
 					</div>
 				</div>
@@ -49,7 +48,7 @@ and open the template in the editor.
 				<div class="collapse navbar-collapse" id="navbarToggler">
 					<ul class="navbar-nav" >
 						<li class="nav-item">
-							<a class="nav-link" href="home.jsp">Home</a>
+							<a class="nav-link" href="#">Home</a>
 						</li>
 			  
 						<li class="nav-item dropdown">
@@ -61,7 +60,7 @@ and open the template in the editor.
 						</li>
 			  
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">Batches</a>
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" href="#">Batches</a>
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="#">Regular Batches</a>
 								<a class="dropdown-item" href="#">Exclusive Batches</a>     
@@ -69,11 +68,11 @@ and open the template in the editor.
 						</li>
 			  
 						<li class="nav-item">
-							<a class="nav-link" href="instructor.jsp">About Us</a>
+							<a class="nav-link" href="#">About Us</a>
 						</li>
 					
 						<li class="nav-item">
-							<a class="nav-link" href="contact.jsp">Contact Us</a>
+							<a class="nav-link" href="#">Contact Us</a>
 						</li>
 					</ul>
 				</div>
@@ -82,111 +81,117 @@ and open the template in the editor.
     </div>
 </header>
 
-<!--  Home page first hero section -->
-  <section class="top-hero-section pt-4 pb-5" style="background-color:#f7cdbc;" >
-    <div class="container" >
-      <div class="row align-items-center" >
-        <div class="col-md-5" >
-          <h4>Dream - Believe - Achieve</h4>
-          <h1>Dance 'Til Dawn Academy </h1>
-          <h5>Whether your intentions are to pursue a career in dance or to enjoy a fun hobby, we offer you the 
-		  knowledge and experience to achieve your goal...<br>
-		  Every student is unique and that's why we arrange schedules as per your requirements</h5><br>
-          <button style="color: #fff; background-color: #004d80" class="btn btn-lg">Get Started</button> <a href="#">
-            Read more...</a>
-        </div>
-
-        <div class="col-md-7" >
-          <img src="https://www.flaticon.com/svg/static/icons/svg/2302/2302208.svg" width="500px" alt="">
-		  
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Home page first hero section -->
-
-	<section class="pt-3 pb-4">
+<!--Schedule start here-->
+<div class="services">
     <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h3>
-			
-			--- OUR DANCE PROGRAMS ---
-          </h3>
-          <hr>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3>
+                  --- Weekly Schedule ---
+                </h3>
+                <hr>
+              </div>
         </div>
-
-      </div>
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <img class="img-fluid  qualities-img  p-5" src="https://www.flaticon.com/svg/static/icons/svg/2811/2811157.svg"  alt="">
-          <h5>
-            Ballet
-          </h5>
-          <p>
-            Aiming to make ballet as a professional career? With only a small group class, 
-			Junior Ballet emphasizes a high level of personal teaching and close supervision.
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img class="img-fluid  qualities-img  p-5" src="https://www.flaticon.com/svg/static/icons/svg/2410/2410221.svg" alt="">
-          <h5>
-            Ballroom
-          </h5>
-          <p>
-              Ballroom dance, type of social dancing, originally practiced in Europe and the United States,
-			  is performed by couples and follows prescribed patterns of steps.
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img class="img-fluid  qualities-img  p-5" src="https://www.flaticon.com/svg/static/icons/svg/3048/3048327.svg" alt="">
-          <h5>
-            Hip-Hop
-          </h5>
-          <p>
-              Hip-hop dance refers to street dance styles primarily performed to hip-hop music.
-			  It includes a wide range of styles primarily breaking, 
-			  locking, and popping.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 text-center">
-          <img class="img-fluid  qualities-img  p-5" src="https://www.flaticon.com/svg/static/icons/svg/925/925847.svg" alt="">
-          <h5>
-            Contemporary
-          </h5>
-          <p>
-              Contemporary focuses on the freedom of movement.
-			  This allows dancers to explore emotions, and use their natural energy
-			  to portray personal expression in their dance techniques.
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img class="img-fluid  qualities-img  p-5" src="https://www.flaticon.com/svg/static/icons/svg/1902/1902302.svg" alt="">
-          <h5>
-            Salsa
-          </h5>
-          <p>
-              Salsa is actually a blend of several Caribbean music and dance styles 
-			  that uses simple harmony based on repeated chord patterns, often in the minor key.
-
-          </p>
-        </div>
-        <div class="col-md-4 text-center">
-          <img class="img-fluid  qualities-img  p-5" src= "https://www.flaticon.com/svg/static/icons/svg/2302/2302208.svg" alt="">
-          <h5>
-            Zumba
-          </h5>
-          <p>
-              Zumba is a fitness program that incorporate interval training — alternating fast and slow rhythms — 
-			  to help improve cardiovascular fitness.
-          </p>
-        </div>
-      </div>
+            <div class="row">
+                <div class="col-md-4 pl-4">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" style="height:13.5rem; width:100%;" src="https://www.flaticon.com/svg/static/icons/svg/39/39951.svg"alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title"><b>MONDAY - TUESDAY</b></h5>
+                              <p class="card-text">
+                                    4:30-5:30 PM | Ballet with Kriti
+                                </p>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-4 pl-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" style="height:13.5rem; width:100%;" src="https://www.flaticon.com/svg/static/icons/svg/40/40072.svg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>WEDNESDAY - THURSDAY</b></h5>
+                          <p class="card-text">
+                            4:30-5:30 PM | Ballroom with Sufiya
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 pl-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" style="height:13.5rem; width:100%;"  src="https://www.flaticon.com/svg/static/icons/svg/39/39981.svg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>FRIDAY - SATURDAY</b></h5>
+                          <p class="card-text">
+                            4:30-5:30 PM |  Hip-hop with Harsh<br> 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>       
+        </div>       
     </div>
-  </section>
-	
+
+<div class="masterclass">
+  <div class="container">
+    <div class="alert alert-info" role="alert">
+      <h4 class="alert-heading" style="font-size: 33px; font-family: Georgia, 'Times New Roman', Times, serif;">Masterclass</h4>
+          <p style="padding-left: 150px; font-size: 25px; font-family: 'Times New Roman', Times, serif;"><b>SUNDAY</b><br>
+              10 - 12 AM <br>
+              Guest Instructors</p>
+  </div>     
+  </div>
+</div>
+<!--Schedule ends here-->
+
+<div class="feedback">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">--- Feedback ---</h3>
+        </div>
+    </div>
+    <form>
+      <div class="form-row">
+        <div class="col-md-6">
+          <label for="validationDefault01" class="value">First name</label>
+          <input type="text" class="form-control" id="validationDefault01" required>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault02" class="value">Last name</label>
+          <input type="text" class="form-control" id="validationDefault02" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6">
+          <label for="validationDefault03" class="value">Training experience</label>
+          <select class="form-control" required>
+            <option selected disabled value="">Excellent</option>
+            <option>Good</option>
+            <option>Average</option>
+            <option>Bad</option>
+        </select>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault04" class="value">Rate our academy</label>
+          <select class="form-control" required>
+            <option selected disabled value="">5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+        </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6">
+          <label for="validationDefault05" class="value">Any Suggestions</label>
+          <textarea class="form-control" rows="2"></textarea>
+      </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
+</div>
+
 <footer class="full-footer">
     <div class="container-fluid top-footer p-md-3 p-1" style="background-color:#f9ca24;">
       <div class="row">
@@ -238,7 +243,7 @@ and open the template in the editor.
     <div class="container-fluid bottom-footer pt-2" style="background-color:#95a5a6;">
       <div class="row">
         <div class="col-12 text-center">
-          <p>Copyrights © 2020 - All rights reserved</p>
+          <p>Copyrights � 2020 - All rights reserved</p>
         </div>
       </div>
     </div>
