@@ -14,7 +14,7 @@
 	<script src="https://kit.fontawesome.com/cca8cad742.js" crossorigin="anonymous"></script>
 		
 	<!-- Custom CSS -->
-        <link rel = "stylesheet" href = "style1.css">
+        <link rel = "stylesheet" href = "newcss.css">
     <title>Regular Batch</title>
 
 </head>
@@ -171,11 +171,57 @@
 </div>
 <!--Schedule ends here-->
 
-<div class="title">
-    <div class="container">
-
+<!--Feedback start -->
+<div class="feedback">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">--- Feedback ---</h3>
+        </div>
     </div>
+    <form method="post" action="feedback.jsp">
+      <div class="form-row">
+        <div class="col-md-6">
+          <label for="validationDefault01" class="value">First name</label>
+          <input type="text" class="form-control" id="validationDefault01" name="first_name" required>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault02" class="value">Last name</label>
+          <input type="text" class="form-control" id="validationDefault02" name="last_name" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6">
+          <label for="validationDefault03" class="value">Training experience</label>
+          <select class="form-control" name="experience" required>
+            <option selected disabled value="">Excellent</option>
+            <option>Good</option>
+            <option>Average</option>
+            <option>Bad</option>
+        </select>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault04" class="value">Rate our academy</label>
+          <select class="form-control" name="rate" required>
+            <option selected disabled value="">5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+        </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6">
+          <label for="validationDefault05" class="value">Any Suggestions</label>
+          <textarea class="form-control" rows="2" name="message"></textarea>
+      </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
 </div>
+</div>
+<!---feedback end-->
 
 <footer class="full-footer">
     <div class="container-fluid top-footer p-md-3 p-1" style="background-color:#f9ca24;">
