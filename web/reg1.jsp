@@ -1,3 +1,18 @@
+<%-- 
+    Document   : reg1
+    Created on : 28-Dec-2020, 12:17:42 PM
+    Author     : DELL
+--%>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+    Created on : 03-Dec-2020, 8:21:49 PM
+    Author     : Himani
+-->
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -15,8 +30,6 @@
 
         <!-- Custom CSS -->
         <link rel = "stylesheet" href = "newcss.css">
-        <title>Regular batch Registration</title>
-        
         <style>
             .link{
                 padding-top: 20px;
@@ -24,8 +37,10 @@
                 font-size: larger;
             }
         </style>
+        <title>Home - Dance Academy !</title>
+
     </head>
-    <body style="background-color:#dfe6e9;">
+   <body style="background-color:#dfe6e9;">
         <header>
             <div class="p-1" id = "topHeader">
                 <div class ="container ">
@@ -79,8 +94,9 @@
                 </div>
             </div>
         </header>
-        <form method="post" action="registration.jsp">
-            <h2>Register now for regular batch!!!</h2>
+
+        <form method="post" action="exclusive.jsp">
+            <h2>Register now for exclusive batch!!!</h2>
             <center>
                 <table border="1" width="30%" cellpadding="5">
                     <thead>
@@ -105,24 +121,18 @@
                         <tr><td><label for="Pin">Pin:</label>
                             <td><input type="text" id="pin" name="pin"  minlength="6" maxlength="6" autocomplete="off" required></td></tr>
                         <tr><td><label for="datemin">Date of Birth:</label>
-                            <td><input type="date" id="dateofbirth" name="dateofbirth" min="1980-01-01"></td></tr>
+                            <td><input type="date" id="datemin" name="datemin" min="1980-01-01"></td></tr>
                         <tr><td><label for="pno">Contact No. :</label>
                             <td><input type="tel" id="pno" name="pno"  minlength="10" maxlength="10" autocomplete="off" required></td></tr>
                         <tr><td><label for="email">E-mail ID:</label>
                             <td><input type="email" id="email" name="email" autocomplete="off" required></td></tr>
                         <tr><td><label for="danceform">Dance Form:</label><br>
-                            <td><input type="radio" id="ballet" name="danceform" value="ballet">
-                                <label for="ballet">Ballet</label><br>
-                                <input type="radio" id="ballroom" name="danceform" value="ballroom">
-                                <label for="ballroom">Ballroom</label><br>
-                                <input type="radio" id="hiphop" name="danceform" value="hiphop">
+                            <td><input type="radio" id="hiphop" name="danceform" value="hiphop">
                                 <label for="hiphop">Hip-Hop</label><br>
-                                <input type="radio" id="katthak" name="danceform" value="katthak">
+                                <input type="radio" id="contemporary" name="danceform" value="contemporary">
                                 <label for="contemporary">Contemporary</label><br>
                                 <input type="radio" id="salsa" name="danceform" value="salsa">
                                 <label for="salsa">Salsa</label><br>
-                                <input type="radio" id="zumba" name="danceform" value="zumba">
-                                <label for="zumba">Zumba</label><br>
                         <tr><td><label for="payment">Payment:</label>
                             <td><input type="text" name="payment" placeholder="amount in Rs." required>
                                     <p><a href="https://www.phonepe.com/" required>PhonePe</a><br>OR<br>
@@ -137,11 +147,10 @@
                     </tbody>
                 </table>
                 <div class="link">
-                Already registered!! <a href="index.jsp">Login Here</a>
+               Already registered!! <a href="index.jsp">Login Here</a>
                 </div>
             </center>
         </form>
-
         <footer class="full-footer">
             <div class="container-fluid top-footer p-md-3 p-1" style="background-color:#f9ca24;">
                 <div class="row">
